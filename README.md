@@ -27,3 +27,24 @@ If gas concentration exceeds threshold value (100 ppm), buzzer is activated.
 - Home LPG safety monitoring
 - Industrial gas leakage detection
 - Smart kitchen safety system
+## Blynk IoT Dashboard
+
+Blynk IoT platform is used for real-time monitoring of LPG gas leakage and cylinder weight.
+
+### Dashboard Features
+- Real-time Gas Level (PPM) Display
+- Cylinder Weight Monitoring
+- Gas Leakage Alert LED Indicator
+- Buzzer Notification
+- Remote Monitoring using Mobile App
+
+ESP8266 NodeMCU sends sensor data to Blynk cloud for live visualization.
+
+Virtual Pins Used:
+
+V0 - Gas Level (PPM) Display
+V1 - Leak Detection Message Label
+V2 - Gas Leak Alert LED Indicator
+V3 - System ON/OFF Button
+V4 - Cylinder Weight Display
+V5 - Low Gas Level Warning Message
